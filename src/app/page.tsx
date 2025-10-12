@@ -1,10 +1,14 @@
 import { Header } from "@/components/landing-page/header";
+import { Hero } from "@/components/landing-page/hero";
 
 export default function Home() {
   return (
-    <div className="min-h-screen w-full flex justify-center bg-gradient">
-      <div className="w-full max-w-7xl">
-        <Header />
+    <div className="min-h-screen w-full flex flex-col">
+      <div className="w-full flex justify-center">
+        <div className="w-full max-w-7xl">
+          <Header />
+          <Hero />
+        </div>
       </div>
     </div>
   );

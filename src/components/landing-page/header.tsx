@@ -1,5 +1,5 @@
 import { dynaPuff } from "@/lib/fonts";
-import { Button } from "../ui/button";
+import { Button } from "../commons/ui/button";
 
 interface NavBarProps {
   title: string;
@@ -16,15 +16,15 @@ export function Header() {
 
   return (
     <header className="flex py-6 px-16">
-      <div className="flex justify-between rounded-2xl w-7xl p-4 bg-white">
-        <h2 className={`text-2xl ${dynaPuff.className} text-primary`}>pakly!</h2>
-        <div className="flex gap-2">
+      <div className="flex justify-between rounded-2xl w-7xl p-4 bg-sidebar-primary">
+        <h2 className={`text-2xl ${dynaPuff.className} text-primary-foreground`}>pakly!</h2>
+        <div className="flex gap-4">
           {navBarData.map((item, idx) => (
-            <Button key={idx} variant={"ghost"}>{item.title}</Button>
+            <Button key={idx} variant={"ghost"} className="text-lg text-primary-foreground">{item.title}</Button>
           ))}
         </div>
         <div>
-          <Button variant={"default"} className="bg-sidebar-primary">Assine agora!</Button>
+          <Button variant={"default"} className="text-primary bg-primary-foreground hover:bg-accent/50 hover:text-white">Garanta seu acesso</Button>
         </div>
       </div>
     </header>

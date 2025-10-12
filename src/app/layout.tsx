@@ -1,4 +1,6 @@
 import "./globals.css";
+import { montserrat } from "@/lib/fonts";
+import { ThemeToggle } from "@/components/commons/theme-toggle";
 
 export default function RootLayout({
   children,
@@ -8,9 +10,10 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`antialiased`}
+        className={`antialiased ${montserrat.className}`}
       >
         {children}
+        <ThemeToggle />
       </body>
     </html>
   );
