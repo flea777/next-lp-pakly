@@ -11,7 +11,7 @@ export function Header() {
   const navBarData: NavBarProps[] = [
     { title: "Início", href: "#" },
     { title: "Serviços", href: "#" },
-    { title: "Planos", href: "#" },
+    { title: "Contato", href: "#" },
   ];
 
   return (

@@ -11,7 +11,11 @@ export function Hero() {
         <section className="flex flex-col gap-8 justify-center items-center min-h-[380px]">
             <div className="flex flex-col gap-8 px-12 items-center">
                 <h2 className={`text-6xl font-bold text-center text-primary max-w-3/4 ${lora.className}`}>Simplifique a <strong className="text-foreground italic">gestão de encomendas</strong> do seu condomínio</h2>
-                <p className="text-center">A tecnologia que transforma a portaria do seu condomínio, <br />integrando <TypewritterEffect texts={texts}/> </p>
+                <div className="text-center">
+                    A tecnologia que transforma a portaria do seu condomínio,
+                    <br />
+                    integrando <TypewritterEffect texts={texts} />
+                </div>
             </div>
           <Button variant={"default"} className="bg-sidebar-primary gap-2 hover:text-accent-foreground">Garanta seu acesso <ArrowRight/></Button>
         </section>
