@@ -1,5 +1,6 @@
 import { Header } from "@/components/landing-page/header";
 import { Hero } from "@/components/landing-page/hero";
+import { Features } from "@/components/landing-page/features";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
         <div className="w-full max-w-7xl">
           <Header />
           <Hero />
+          <Features />
         </div>
       </div>
     </div>
