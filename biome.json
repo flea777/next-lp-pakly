@@ -2,15 +2,28 @@
   "$schema": "https://biomejs.dev/schemas/2.2.6/schema.json",
   "formatter": {
     "enabled": true,
-    "indentStyle": "tab"
+    "indentStyle": "tab",
+    "indentWidth": 2,
+    "lineWidth": 80,
+    "lineEnding": "lf"
+  },
+  "javascript": {
+    "formatter": {
+      "jsxQuoteStyle": "single",
+      "semicolons": "asNeeded",
+      "quoteStyle":"single"
+    }
   },
   "linter": {
     "enabled": false
   },
-  "javascript": {
-    "formatter": {
-      "quoteStyle": "double"
-    }
+  "files": {
+    "includes": [
+      "**/*.ts",
+      "**/*.tsx",
+      "**/*.js",
+      "**/*.jsx"
+    ]
   },
   "assist": {
     "enabled": true,

@@ -1,16 +1,16 @@
-"use client";
+'use client'
 
-import Typewritter from "typewriter-effect";
+import Typewritter from 'typewriter-effect'
 
 interface TypewritterEffectProps {
-	texts: string[];
+	texts: string[]
 }
 
 export function TypewritterEffect(props: TypewritterEffectProps) {
-	const { texts } = props;
+	const { texts } = props
 
 	return (
-		<span className="inline-block">
+		<span className='inline-block'>
 			<Typewritter
 				options={{
 					strings: texts,
@@ -19,5 +19,5 @@ export function TypewritterEffect(props: TypewritterEffectProps) {
 				}}
 			/>
 		</span>
-	);
+	)
 }
