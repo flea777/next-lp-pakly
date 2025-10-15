@@ -1,20 +1,18 @@
 import "./globals.css";
-import { montserrat } from "@/lib/fonts";
 import { ThemeToggle } from "@/components/commons/theme-toggle";
+import { montserrat } from "@/lib/fonts";
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="pt-br">
-      <body
-        className={`antialiased ${montserrat.className}`}
-      >
-        {children}
-        <ThemeToggle />
-      </body>
-    </html>
-  );
+	return (
+		<html lang="pt-br">
+			<body className={`antialiased ${montserrat.className}`}>
+				{children}
+				<ThemeToggle />
+			</body>
+		</html>
+	);
 }
