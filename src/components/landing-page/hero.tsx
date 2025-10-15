@@ -1,9 +1,15 @@
-import { lora } from "@/lib/fonts";
-import { Button } from "../commons/ui/button";
 import { ArrowRight } from 'lucide-react'
-import { TypewritterEffect } from "../commons/ui/animated/typewriter-effect";
+import { lora } from '@/lib/fonts'
+import { TypewritterEffect } from '../commons/ui/animated/typewriter-effect'
+import { Button } from '../commons/ui/button'
 
 export function Hero() {
+  const texts = [
+    'notificações inteligentes.',
+    'controle de encomendas.',
+    'assinaturas digitais.',
+    'relatórios em tempo real.',
+  ]
 
     const texts = ['notificações inteligentes.', 'controle de encomendas.', 'assinaturas digitais.', 'relatórios em tempo real.']
 

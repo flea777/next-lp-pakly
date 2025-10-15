@@ -1,3 +1,5 @@
+/* biome-ignore file */
+
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -41,16 +43,20 @@
   --font-mono: Source Code Pro, monospace;
 
   --radius: 0.5rem;
-  
+
   --shadow-2xs: 0px 5px 10px -2px rgb(0 0 0 / 0.05);
   --shadow-xs: 0px 5px 10px -2px rgb(0 0 0 / 0.05);
-  --shadow-sm: 0px 5px 10px -2px rgb(0 0 0 / 0.10), 0px 1px 2px -3px rgb(0 0 0 / 0.10);
-  --shadow: 0px 5px 10px -2px rgb(0 0 0 / 0.10), 0px 1px 2px -3px rgb(0 0 0 / 0.10);
-  --shadow-md: 0px 5px 10px -2px rgb(0 0 0 / 0.10), 0px 2px 4px -3px rgb(0 0 0 / 0.10);
-  --shadow-lg: 0px 5px 10px -2px rgb(0 0 0 / 0.10), 0px 4px 6px -3px rgb(0 0 0 / 0.10);
-  --shadow-xl: 0px 5px 10px -2px rgb(0 0 0 / 0.10), 0px 8px 10px -3px rgb(0 0 0 / 0.10);
+  --shadow-sm:
+    0px 5px 10px -2px rgb(0 0 0 / 0.1), 0px 1px 2px -3px rgb(0 0 0 / 0.1);
+  --shadow:
+    0px 5px 10px -2px rgb(0 0 0 / 0.1), 0px 1px 2px -3px rgb(0 0 0 / 0.1);
+  --shadow-md:
+    0px 5px 10px -2px rgb(0 0 0 / 0.1), 0px 2px 4px -3px rgb(0 0 0 / 0.1);
+  --shadow-lg:
+    0px 5px 10px -2px rgb(0 0 0 / 0.1), 0px 4px 6px -3px rgb(0 0 0 / 0.1);
+  --shadow-xl:
+    0px 5px 10px -2px rgb(0 0 0 / 0.1), 0px 8px 10px -3px rgb(0 0 0 / 0.1);
   --shadow-2xl: 0px 5px 10px -2px rgb(0 0 0 / 0.25);
-  
 }
 
 .dark {
@@ -85,14 +91,14 @@
   --sidebar-accent-foreground: #e4e4e4;
   --sidebar-border: #454545;
   --sidebar-ring: #6d5de7;
-  
+
   --shadow-2xs: 0 1px 3px 0px rgb(0 0 0 / 0.05);
   --shadow-xs: 0 1px 3px 0px rgb(0 0 0 / 0.05);
-  --shadow-sm: 0 1px 3px 0px rgb(0 0 0 / 0.10), 0 1px 2px -1px rgb(0 0 0 / 0.10);
-  --shadow: 0 1px 3px 0px rgb(0 0 0 / 0.10), 0 1px 2px -1px rgb(0 0 0 / 0.10);
-  --shadow-md: 0 1px 3px 0px rgb(0 0 0 / 0.10), 0 2px 4px -1px rgb(0 0 0 / 0.10);
-  --shadow-lg: 0 1px 3px 0px rgb(0 0 0 / 0.10), 0 4px 6px -1px rgb(0 0 0 / 0.10);
-  --shadow-xl: 0 1px 3px 0px rgb(0 0 0 / 0.10), 0 8px 10px -1px rgb(0 0 0 / 0.10);
+  --shadow-sm: 0 1px 3px 0px rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow: 0 1px 3px 0px rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 1px 3px 0px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 1px 3px 0px rgb(0 0 0 / 0.1), 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 1px 3px 0px rgb(0 0 0 / 0.1), 0 8px 10px -1px rgb(0 0 0 / 0.1);
   --shadow-2xl: 0 1px 3px 0px rgb(0 0 0 / 0.25);
 }
 
@@ -156,4 +162,3 @@
     @apply bg-background text-foreground;
   }
 }
-
