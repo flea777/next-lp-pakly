@@ -45,17 +45,19 @@ const BentoCard = ({
     className={cn(
       'group relative col-span-3 flex flex-col justify-end overflow-hidden rounded-xl',
       // light styles
-      'bg-background [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)]',
+      "bg-card [box-shadow:0_0_0_1px_rgba(0,0,0,.02),0_1px_2px_rgba(0,0,0,.04),0_6px_12px_rgba(0,0,0,.04)]",
       // dark styles
-      'dark:bg-background transform-gpu dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset] dark:[border:1px_solid_rgba(255,255,255,.1)]',
+      "dark:bg-card transform-gpu dark:[box-shadow:0_-12px_48px_-24px_#ffffff1f_inset] dark:[border:1px_solid_rgba(255,255,255,.08)]",
       className
     )}
     {...props}
   >
     <div className="p-4">
       <div className="pointer-events-none z-10 flex transform-gpu flex-col gap-1 transition-all duration-300 lg:group-hover:-translate-y-10">
-        <Icon className="h-12 w-12 origin-left transform-gpu text-card-foreground transition-all duration-300 ease-in-out group-hover:scale-75" />
-        <h3 className={`text-xl text-primary font-bold`}>{name}</h3>
+        <Icon className="h-12 w-12 origin-left transform-gpu text-primary transition-all duration-300 ease-in-out group-hover:scale-75" />
+        <h3 className={`text-xl text-foreground font-semibold`}>
+          {name}
+        </h3>
         <p className="max-w-lg text-foreground">{description}</p>
       </div>
 
