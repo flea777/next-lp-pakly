@@ -1,5 +1,6 @@
 import { dynaPuff } from '@/lib/fonts'
 import { Button } from '../commons/ui/button'
+import { ArrowRight } from 'lucide-react'
 
 interface NavBarProps {
 	title: string
@@ -38,7 +39,7 @@ export function Header() {
 						variant={'default'}
 						className='text-primary bg-primary-foreground hover:bg-accent/50 hover:text-white'
 					>
-						Garanta seu acesso
+						Garanta seu acesso <ArrowRight />
 					</Button>
 				</div>
 			</div>

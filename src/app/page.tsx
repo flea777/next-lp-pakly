@@ -1,4 +1,5 @@
 import { Features } from '@/components/landing-page/features'
+import { FormSection } from '@/components/landing-page/form-section'
 import { Header } from '@/components/landing-page/header'
 import { Hero } from '@/components/landing-page/hero'
 import { Presentation } from '@/components/landing-page/presentation'
@@ -13,6 +14,7 @@ export default function Home() {
 					<Hero />
 					<Presentation />
 					<Features />
+					<FormSection />
 				</div>
 			</div>
 		</div>

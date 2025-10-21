@@ -23,8 +23,8 @@ export function Hero() {
 					</strong>{' '}
 					do seu condomínio
 				</h2>
-				<div className='text-center text-lg'>
-					A tecnologia que transforma a portaria do seu condomínio,
+				<div className='text-center text-xl'>
+					O sistema que transforma a portaria do seu condomínio,
 					<br />
 					integrando <TypewritterEffect texts={texts} />
 				</div>
@@ -33,7 +33,7 @@ export function Hero() {
 				variant={'default'}
 				className='bg-sidebar-primary gap-2 hover:text-accent-foreground'
 			>
-				Garanta seu acesso <ArrowRight />
+				Garanta seu acesso prioritário <ArrowRight />
 			</Button>
 		</section>
 	)

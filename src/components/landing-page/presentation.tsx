@@ -48,8 +48,9 @@ export function Presentation() {
 	return (
 		<section className='flex flex-col gap-4 px-8 pb-8 pt-14 items-center'>
 			<h3 className='text-foreground font-semibold text-4xl text-center mb-10'>
-				Como <strong className='text-primary font-semibold'>funciona</strong> a
-				nossa solução?
+				Como a{' '}
+				<strong className='text-primary font-semibold'>pakly!</strong>{' '}
+				impactará na sua gestão?
 			</h3>
 
 			<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full'>
