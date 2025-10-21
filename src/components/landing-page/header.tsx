@@ -2,11 +2,7 @@ import { ArrowRight } from 'lucide-react'
 import { dynaPuff } from '@/lib/fonts'
 import { Button } from '../commons/ui/button'
 
-interface NavBarProps {
-	title: string
-	href: string
-	class?: string
-}
+
 
 export function Header() {
 	return (
