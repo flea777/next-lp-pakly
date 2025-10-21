@@ -31,7 +31,7 @@ export function Form() {
 		},
 	]
 
-	const processProps = ['Cadastro', 'Notificação', 'Assinatura']
+	const processProps = ['Gestão de entregas', 'Alertas automáticos', 'Confirmação digital']
 
 	return (
 		<form action='' className='flex flex-col gap-3'>
@@ -54,9 +54,7 @@ export function Form() {
 					))}
 				</SelectContent>
 			</Select>
-			<p className='text-sm font-bold'>
-				Principais desafios atuais:
-			</p>
+			<p className='text-sm font-bold text-foreground'>Qual é sua prioridade atual?</p>
 			{processProps.map((process) => (
 				<div className='flex items-center space-x-2' key={process}>
 					<Checkbox id='terms' />
@@ -66,6 +64,7 @@ export function Form() {
 			<Button>
 				Garanta seu acesso prioritário <ArrowRight />
 			</Button>
+			<p className='text-sm text-center text-foreground'>Usamos seus dados com segurança e transparência, sem spam.</p>
 		</form>
 	)
 }

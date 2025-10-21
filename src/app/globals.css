@@ -4,23 +4,23 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-	--background: #f7f4ef; /* bege bem claro */
+	--background: #f7f4ef;
 	--foreground: #2f2f2f;
 	--card: #ffffff;
 	--card-foreground: #2f2f2f;
 	--popover: #ffffff;
 	--popover-foreground: #2f2f2f;
 
-	--primary: #3f7a5e; /* verde mais marcante e elegante */
+	--primary: #3f7a5e; 
 	--primary-foreground: #ffffff;
 
-	--secondary: #dbe5dd; /* verde suave claro */
+	--secondary: #dbe5dd;
 	--secondary-foreground: #2f2f2f;
 
-	--muted: #e6e0d6; /* bege neutro */
+	--muted: #e6e0d6;
 	--muted-foreground: #6b6b6b;
 
-	--accent: #7c8d80; /* tom acinzentado com leve verde */
+	--accent: #7c8d80;
 	--accent-foreground: #ffffff;
 
 	--destructive: #d9534f;
