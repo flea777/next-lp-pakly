@@ -1,4 +1,5 @@
 import { Features } from '@/components/landing-page/features'
+import { Footer } from '@/components/landing-page/footer'
 import { FormSection } from '@/components/landing-page/form-section'
 import { Header } from '@/components/landing-page/header'
 import { Hero } from '@/components/landing-page/hero'
@@ -15,6 +16,7 @@ export default function Home() {
 					<Presentation />
 					<Features />
 					<FormSection />
+					<Footer />
 				</div>
 			</div>
 		</div>

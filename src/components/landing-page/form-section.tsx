@@ -6,7 +6,7 @@ export function FormSection() {
 			<h3 className='text-foreground font-semibold text-4xl leading-snug text-center md:text-left md:w-1/2'>
 				Transforme tarefas manuais em processos automáticos.{' '}
 				<strong className='text-primary font-semibold'>
-					Cadastre-se e receba acesso antecipado.
+					Cadastre-se e receba um diagnóstico personalizado gratuito.
 				</strong>
 			</h3>
 			<div className='md:w-1/2'>
